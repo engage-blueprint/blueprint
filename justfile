@@ -23,6 +23,7 @@ deploy:
 build:
   just bundleflu
   xparse -v -o ./docs/app.bin ./src/bundled.fluent
+  just gen-index-html
 
 bundleflu:
   #!/usr/bin/env zx
@@ -62,4 +63,4 @@ gen-index-html:
   <script>EE.boot("app.bin?latest")</script>
   </html>
   `;
-  await fs.writeFile(`./docs/app.html`, template);
+  await fs.writeFile(`./docs/index.html`, template);
