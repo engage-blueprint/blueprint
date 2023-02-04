@@ -47,7 +47,7 @@ gen-index-html:
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fluent Reference</title>
+  <title>Fluent Template</title>
   <script src="https://c.flu.run/core/latest/efn.js?latest"></script>
   <script src="https://c.flu.run/core/latest/ee-development.js?latest"></script>
   <link rel="manifest" href="manifest.json">
