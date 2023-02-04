@@ -21,7 +21,7 @@ deploy:
   echo "https://engage-blueprint.github.io/{{name}}"
 
 build:
-  just bundleflu flu
+  just bundleflu
   xparse -v -o ./docs/app.bin ./src/bundled.fluent
 
 bundleflu:

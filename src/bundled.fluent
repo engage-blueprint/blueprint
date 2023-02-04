@@ -1,0 +1,16 @@
+
+// source: app.flu
+[init]
+
+app.id 42
+set.icon !protected !lock 
+.bg #red4
+
+
+[start]
+must.be guest else [login]
+
+
+
+[login]
+.t "Please Login"
