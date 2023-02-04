@@ -7,4 +7,4 @@ set positional-arguments
 gitp:
   git add .
   git commit -m "build"
-  git push origin master
+  git push origin main
