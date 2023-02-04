@@ -1,6 +1,7 @@
 [init]
 
 app.id 42
+app.name "Fluent Blueprint"
 set.icon !protected !lock 
 .bg #red4
 
