@@ -1,7 +1,7 @@
 alias g:=gitp
 alias d:=deploy
 name:= "share-video-behind-a-pin"
-publicurl:= "https://engage-blueprint.github.io/{{name}}/"
+publicurl:= "{name}}/"
 
 set dotenv-load
 set positional-arguments
@@ -14,4 +14,6 @@ gitp:
 
 deploy:
   just gitp
-  echo {{publicurl}}
+  echo "https://engage-blueprint.github.io/{{name}}"
+
+  
