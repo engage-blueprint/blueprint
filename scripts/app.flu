@@ -1,0 +1,28 @@
+{{! expected props to receive }}
+{{#expect app }}
+
+[init]
+
+app.id {{app.id}}
+app.name "{{app.name}}"
+app.user guest "guest" pin {{app.pincode}}
+app.icon "{{app.icon}}"
+
+set.image +logo "{{app.logo}}"
+style .text {{app.fgcolor}}
+
+.bg {{app.bgcolor}}
+
+[start]
+must.be guest else [login]
+
++logo 
+.t "{{app.message}}"
+.video.youtube "{{app.youtubeid}}"
+
+[login]
+
++logo
+.t "Please Login"
+.t "Enter your pin"
+pincode = ?pin

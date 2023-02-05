@@ -1,0 +1,13 @@
+{
+  "name": "blueprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/engage-blueprint/blueprint.git",
+  "author": "Glenn Schleicher <glenn@xpertana.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "tempura": "^0.4.0",
+    "zod": "^3.20.2"
+  }
+}
